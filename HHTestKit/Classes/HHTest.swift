@@ -15,4 +15,8 @@ public class HHTest {
     public func showInfo() {
         print("HHTestKit create success!")
     }
+    
+    public func showNewInfo() {
+        print("HHTestKit V0.1.1 create success!")
+    }
 }
