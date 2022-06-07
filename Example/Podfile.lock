@@ -1,0 +1,16 @@
+PODS:
+  - HHTestKit (0.1.0)
+
+DEPENDENCIES:
+  - HHTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  HHTestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHTestKit: 5805affbf815cf44c52d765cc3d7ff57de3b2baa
+
+PODFILE CHECKSUM: 2b7939092d2aa2ec8f700e4335c271aeb55eb777
+
+COCOAPODS: 1.11.2
