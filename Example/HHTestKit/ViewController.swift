@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         
         let test = HHTest()
         test.showNewInfo()
+        
+        let view = HHView(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
+        view.backgroundColor = UIColor.black
+        self.view.addSubview(view)
     }
 
     override func didReceiveMemoryWarning() {
