@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		146BBF90AEA71FE90F3D150E /* HHTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHTestKit.podspec; path = ../HHTestKit.podspec; sourceTree = "<group>"; };
+		146BBF90AEA71FE90F3D150E /* HHTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHTestKit.podspec; path = ../HHTestKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F269C4A4A2A714A0633BD95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54F6F9EC2319A87F2DBD0A46 /* Pods-HHTestKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHTestKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HHTestKit_Example/Pods-HHTestKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5ED380FC772232D0B2EA956F /* Pods-HHTestKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHTestKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HHTestKit_Tests/Pods-HHTestKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -316,10 +316,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HHTestKit_Example/Pods-HHTestKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HHTestKit/HHTestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HHTestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

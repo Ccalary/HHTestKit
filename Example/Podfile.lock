@@ -1,16 +1,23 @@
 PODS:
-  - HHTestKit (0.1.0)
+  - HHTestKit (0.1.1):
+    - SnapKit (~> 4.2.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - HHTestKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   HHTestKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HHTestKit: 5805affbf815cf44c52d765cc3d7ff57de3b2baa
+  HHTestKit: 33f11b818767e7c7d6201b175184ef54a6ef9b4a
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 2b7939092d2aa2ec8f700e4335c271aeb55eb777
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
