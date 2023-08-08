@@ -7,7 +7,7 @@ target 'HHTestKit_Example' do
 
   target 'HHTestKit_Tests' do
     inherit! :search_paths
-
-    
   end
+  
 end
+

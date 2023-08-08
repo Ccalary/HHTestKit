@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SnapKit
+//import SnapKit
 
 public class HHTest {
     public init() {
@@ -18,7 +18,7 @@ public class HHTest {
     }
     
     public func showNewInfo() {
-        print("HHTestKit V0.1.1 create success!")
+        print("HHTestKit V0.1.3 create success!")
     }
 }
 
@@ -36,11 +36,11 @@ public class HHView: UIView {
         let bgView = UIView()
         bgView.backgroundColor = UIColor.red
         self.addSubview(bgView)
-        bgView.snp.makeConstraints { make in
-            make.left.equalToSuperview().offset(2)
-            make.right.equalToSuperview().offset(-2)
-            make.top.equalToSuperview().offset(5)
-            make.bottom.equalToSuperview().offset(-5)
-        }
+//        bgView.snp.makeConstraints { make in
+//            make.left.equalToSuperview().offset(2)
+//            make.right.equalToSuperview().offset(-2)
+//            make.top.equalToSuperview().offset(5)
+//            make.bottom.equalToSuperview().offset(-5)
+//        }
     }
 }
